@@ -1,0 +1,104 @@
+@font-face {
+  font-family: MyFont;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: MyFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+}
+.conteiner {
+  display: flex;
+  width: 700px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 25px;
+}
+.box {
+  width: 60%;
+}
+.box h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.box p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.foto {
+  width: 40%;
+}
+.foto img {
+  width: 100%;
+}
+.item {
+  list-style-image: url(./assets/images/icon-success.svg);
+  margin-left: 20px;
+}
+.item li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.main-email {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 15px;
+}
+.main-email label {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.main-email input {
+  padding: 13px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: inherit;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+.main-email button {
+  padding: 18px 30px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: hsl(235, 18%, 26%);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.hide {
+  display: none;
+}
+.conteiner-2 {
+  width: 400px;
+
+  padding: 21px;
+  border-radius: 13px;
+  background-color: #fff;
+}
+.conteiner-2 h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.conteiner-2 button {
+  padding: 12px 115px;
+  border-radius: 12px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: hsl(235, 18%, 26%);
+  border: none;
+  cursor: pointer;
+}
+.conteinr-iccon {
+  width: 50px;
+  margin-bottom: 10px;
+}
